@@ -15,7 +15,7 @@ function showInput() {
 	let value = inputField.val();
 
 	if(value === '') {
-		alert.text('Please add imput.');
+		alert.text('Please add input.');
 	} else {
 		alert.text('');
 
