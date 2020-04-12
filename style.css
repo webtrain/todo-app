@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding:0;
+	box-box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+	background: #50E3C2;
+	font-family: 'Comic Neue', cursive;
+	color: grey;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  
+}
+
+.appBox {
+	background-color: #F7F7F7;
+	padding: 50px;
+	border-radius: 5px;
+	box-shadow: 1px 2px 10px rgba(0,0,0,.3);
+	position: relative;
+}
+
+.appBox h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#alert {
+	position: absolute;
+	top: 94px;
+}
+
+
+.inputField {
+	margin: 20px 0;
+	border-spacing: 0 1rem;
+	overflow: hidden;
+}
+
+#textField {
+	padding-left: 10px;
+	border: none;
+	height: 40px;
+	width: 100%;
+	color: grey;
+	font-family: 'Comic Neue', cursive;
+	font-size: 1.2rem;
+}
+
+#textField::focus {
+	outline: none;
+}
+
+#btn {
+	padding: 10px;
+	border: none;
+	background-color: #427a71;
+	color: #fff;
+	font-family: 'Comic Neue', cursive;
+	font-size: 1.2rem;
+	line-height: 20px;
+	height: 40px;
+	width: 100%;
+}
+
+#btn:hover {
+	background-color: #50E3C2;
+	color: #fff;
+}
+
+
+table {
+	border-collapse:separate; 
+  border-spacing: 0 .5rem;
+}
+
+table tr {
+	/*padding: 10px;*/
+}
+
+table tr td:last-child {
+	width: 60px;
+	vertical-align: center;
+}
+
+.iconify {
+	font-size: 24px;
+}
+
+#trash {
+	margin-right: 5px;
+}
+
+#trash:hover {
+	color: red;
+}
+
+#check:hover {
+	color: green;
+}
+
+.through {
+	text-decoration: line-through;
+	background-color: #e3e1e1;
+}
+
